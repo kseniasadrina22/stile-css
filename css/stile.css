@@ -1,0 +1,23 @@
+h1 {
+  color: blue;
+  font-size: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: green;
+  font-size: 20px;
+  text-align: center;
+}
+
+p {
+  color: yellow;
+  font-size: 14px;
+  text-align: right;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
