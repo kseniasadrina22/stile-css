@@ -1,12 +1,16 @@
-body {
-  color: fuchsia;
-  border: 1px solid blueviolet;
+p {
+  text-decoration: overline dashed 2px red;
 }
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
-h2 {
-  color: initial;
+body {
+  min-height: 100vh;
+  background: url(https://images.pexels.com/photos/13878092/pexels-photo-13878092.jpeg?cs=srgb&dl=pexels-mathilde-langevin-13878092.jpg&fm=jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
 }
