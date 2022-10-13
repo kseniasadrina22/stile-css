@@ -1,21 +1,12 @@
-h1 {
-  color: blue;
-  font-size: 20px;
-  text-align: center;
+body {
+  color: fuchsia;
+  border: 1px solid blueviolet;
 }
 
-.abstract {
-  color: grey;
+a {
+  color: inherit;
 }
 
 h2 {
-  color: green;
-}
-
-#topNews {
-  color: red;
-}
-
-.info {
-  font-size: 10px;
+  color: initial;
 }
