@@ -1,5 +1,17 @@
-p {
-  text-decoration: overline dashed 2px red;
+.menuItem {
+  display: inline-block;
+  border: 1px solid grey;
+  border-radius: 2px;
+  padding: 15px;
+  width: 60px;
+  margin: 10px;
+  background-color: darkgrey;
+}
+
+.menuItems {
+  list-style: none;
+  padding: 0px;
+  text-align: center;
 }
 
 a {
@@ -7,10 +19,10 @@ a {
   text-decoration: none;
 }
 
-body {
-  min-height: 100vh;
-  background: url(https://images.pexels.com/photos/13878092/pexels-photo-13878092.jpeg?cs=srgb&dl=pexels-mathilde-langevin-13878092.jpg&fm=jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left;
+.news {
+  display: inline-block;
+  width: 50%;
+  border: 1px solid black;
+  vertical-align: top;
+  padding: 20px;
 }
